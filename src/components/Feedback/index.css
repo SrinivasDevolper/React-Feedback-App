@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-container {
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-card {
+  background-color: #ffffff;
+  height: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+.heading {
+  color: #0f172a;
+  width: 420px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+li {
+  text-align: center;
+  list-style: none;
+}
+li img {
+  width: 50px;
+  cursor: pointer;
+}
+li h1 {
+  color: #1e293b;
+  font-size: 20px;
+}
+.thankyou-cont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.love {
+  width: 60px;
+}
+.love-card {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 5px;
+}
+.love-card div {
+  margin-bottom: 20px;
+}
+.love-card div h1 {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #0f172a;
+  margin-top: 4px;
+}
+.love-card div p {
+  font-size: 20px;
+  color: #1e293b;
+  width: 450px;
+}
